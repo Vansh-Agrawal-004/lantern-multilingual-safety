@@ -51,7 +51,7 @@ Our activation analysis draws on research into refusal directions by Arditi et a
 
 ## Hackathon repos (kits) used
 
-- **SafeTune:** `[04b_steer_safetune.py](https://safetune.lexsi.ai/)` invokes `RefusalDirectionTrainer` to calibrate English and multilingual directions at alpha 0.1 and 0.3. Corresponding `safetune_steer_*.json` result files are present. 
+- **SafeTune:** [04b_steer_safetune.py](https://safetune.lexsi.ai/) invokes `RefusalDirectionTrainer` to calibrate English and multilingual directions at alpha 0.1 and 0.3. Corresponding `safetune_steer_*.json` result files are present. 
 
 ### How the repos connect
 
