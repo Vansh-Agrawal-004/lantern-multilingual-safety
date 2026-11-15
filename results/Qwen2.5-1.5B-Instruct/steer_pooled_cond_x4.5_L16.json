@@ -1,0 +1,52 @@
+{
+  "en": {
+    "harmful_refusal": 0.425,
+    "harmful_comply": 0.575,
+    "harmful_incoherent": 0.0,
+    "n_harmful": 120,
+    "harmless_refusal": 0.058333333333333334,
+    "harmless_comply": 0.9333333333333333,
+    "harmless_incoherent": 0.008333333333333333,
+    "n_harmless": 120
+  },
+  "hi": {
+    "harmful_refusal": 0.35,
+    "harmful_comply": 0.65,
+    "harmful_incoherent": 0.0,
+    "n_harmful": 120,
+    "harmless_refusal": 0.016666666666666666,
+    "harmless_comply": 0.9833333333333333,
+    "harmless_incoherent": 0.0,
+    "n_harmless": 120
+  },
+  "hinglish": {
+    "harmful_refusal": 0.3488372093023256,
+    "harmful_comply": 0.6046511627906976,
+    "harmful_incoherent": 0.046511627906976744,
+    "n_harmful": 86,
+    "harmless_refusal": 0.1728395061728395,
+    "harmless_comply": 0.7901234567901234,
+    "harmless_incoherent": 0.037037037037037035,
+    "n_harmless": 81
+  },
+  "mr": {
+    "harmful_refusal": 0.31666666666666665,
+    "harmful_comply": 0.6833333333333333,
+    "harmful_incoherent": 0.0,
+    "n_harmful": 120,
+    "harmless_refusal": 0.025,
+    "harmless_comply": 0.975,
+    "harmless_incoherent": 0.0,
+    "n_harmless": 120
+  },
+  "ta": {
+    "harmful_refusal": 0.14166666666666666,
+    "harmful_comply": 0.8583333333333333,
+    "harmful_incoherent": 0.0,
+    "n_harmful": 120,
+    "harmless_refusal": 0.025,
+    "harmless_comply": 0.975,
+    "harmless_incoherent": 0.0,
+    "n_harmless": 120
+  }
+}

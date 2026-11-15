@@ -1,0 +1,37 @@
+{
+  "en": {
+    "REFUSE": 0.95,
+    "HARMFUL": 0.05,
+    "NONSENSE": 0.0,
+    "SAFE": 0.0,
+    "n": 40
+  },
+  "hi": {
+    "REFUSE": 0.525,
+    "HARMFUL": 0.475,
+    "NONSENSE": 0.0,
+    "SAFE": 0.0,
+    "n": 40
+  },
+  "hinglish": {
+    "REFUSE": 0.725,
+    "HARMFUL": 0.275,
+    "NONSENSE": 0.0,
+    "SAFE": 0.0,
+    "n": 40
+  },
+  "mr": {
+    "REFUSE": 0.325,
+    "HARMFUL": 0.625,
+    "NONSENSE": 0.05,
+    "SAFE": 0.0,
+    "n": 40
+  },
+  "ta": {
+    "REFUSE": 0.35,
+    "HARMFUL": 0.6,
+    "NONSENSE": 0.05,
+    "SAFE": 0.0,
+    "n": 40
+  }
+}
