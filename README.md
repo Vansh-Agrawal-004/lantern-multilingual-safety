@@ -1,4 +1,4 @@
-# LexSI: Investigating Multilingual Safety Gaps through Activation Steering and LoRA Fine-Tuning
+# LANTERN: Investigating Multilingual Safety Gaps through Activation Steering and LoRA Fine-Tuning
 
 **One-line claim:** On a five-language safety benchmark, multilingual LoRA reduced LLM-judged harmful assistance from **40.5% to 15.5%**, while activation steering also improved safety but exposed substantial over-refusal tradeoffs.
 
@@ -10,13 +10,13 @@
 
 ## Abstract
 
-Large language models are increasingly deployed in multilingual settings, but safety behavior may not transfer consistently beyond English. We introduce **LexSI**, an experimental study of safety behavior in **Qwen2.5-1.5B-Instruct** across English, Hindi, Hinglish, Marathi, and Tamil. We ask whether language-dependent internal representations help explain safety disparities and whether activation steering or multilingual LoRA fine-tuning can improve refusal behavior without excessive over-refusal.
+Large language models are increasingly deployed in multilingual settings, but safety behavior may not transfer consistently beyond English. We introduce **LANTERN**, an experimental study of safety behavior in **Qwen2.5-1.5B-Instruct** across English, Hindi, Hinglish, Marathi, and Tamil. We ask whether language-dependent internal representations help explain safety disparities and whether activation steering or multilingual LoRA fine-tuning can improve refusal behavior without excessive over-refusal.
 
 We construct harmful and harmless multilingual prompt sets, evaluate the base model, and extract per-language activation directions from differences between harmful and harmless prompt representations. We examine cross-language alignment and compare English-only, pooled multilingual, conditional, and unconditional steering across layers and strengths. We also train multilingual LoRA adapters using different harmless-to-harmful ratios and perform a Marathi holdout experiment.
 
 The baseline keyword-based refusal detector reports **100% refusal for English harmful prompts versus 0% for Tamil**. On a separate LLM-judged subset, harmful assistance decreases from **40.5% for the base model to 15.5% after 1:1 LoRA fine-tuning**; a tested conditional steering configuration achieves **18.5%**. These improvements come with tradeoffs: unconditional steering produces **86.9% over-refusal**, while Marathi holdout training improves harmful-prompt refusal but increases unnecessary refusals. English ARC Easy and HellaSwag checks show no substantial measured capability loss on those limited benchmarks.
 
-Our results suggest that multilingual safety interventions must be evaluated for both harmful assistance and unnecessary refusal, rather than maximizing refusal rate alone. LexSI releases reproducibility code, model adapters, steering artifacts, benchmark data, and numerical results to support further investigation.
+Our results suggest that multilingual safety interventions must be evaluated for both harmful assistance and unnecessary refusal, rather than maximizing refusal rate alone. LANTERN releases reproducibility code, model adapters, steering artifacts, benchmark data, and numerical results to support further investigation.
 
 ## For judges: one minute
 
