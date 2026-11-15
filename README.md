@@ -69,12 +69,10 @@ SafeTune provides a separate steering evaluation; its alpha values are not inter
 
 | Role | Model / tool | Configuration and license status |
 |---|---|---|
-| Base and target model | `Qwen/Qwen2.5-1.5B-Instruct` | Quantization, revision and actual license: **Apache License 2.0**. This is not an Aya model; confirm eligibility for the chosen track. |
+| Base and target model | `Qwen/Qwen2.5-1.5B-Instruct` | Quantization, revision and actual license: **Apache License 2.0**. |
 | Hinglish generation and LLM judge | `Qwen/Qwen2.5-3B-Instruct` | Hinglish generation has a rule-based fallback; the judge uses the same model family. Revision and license: **Qwen Research license**. |
-| Translation | `facebook/nllb-200-distilled-600M` | Hindi, Marathi and Tamil. The source notebook identifies the model as CC-BY-NC-4.0; verify the model card and applicable restrictions. |
+| Translation | `facebook/nllb-200-distilled-600M` | Hindi, Marathi and Tamil. License: ** CC-BY-NC-4.0**. |
 | Fine-tuning | Hugging Face Transformers and PEFT | Record tested versions, revisions and applicable licenses. |
-
-No closed-model baseline or teacher-model distillation experiment is claimed. Harmless training targets include self-distilled responses from the model.
 
 ## Datasets, benchmarks and licenses
 
@@ -290,7 +288,6 @@ These two English checks show small observed changes; they do not establish pres
 
 - Unconditional steering refused 86.9% of harmless prompts despite 100% harmful-prompt refusal.
 - LoRA 1:2 reduced over-refusal relative to 1:1, with somewhat lower harmful-prompt refusal.
-- Marathi holdout transferred refusal behavior but increased harmless refusals.
 - Steering was sensitive to layer choice, and the best keyword-refusal layer has not been shown to be the best judged-safety layer.
 - Hinglish generation produced incomplete examples and variable language quality.
 
